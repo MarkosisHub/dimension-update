@@ -805,7 +805,7 @@ html {
   font-size: 1.8rem;
   text-align: center;
   color: #0a275b;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .get-in-touch-form input {
@@ -940,19 +940,19 @@ html {
   font-weight: bold;
 }
 
-.footer-top-wrapper .privacy-policy-link {
-  text-align: left;
-  margin-top: 1rem;
-}
-
-.footer-top-wrapper .privacy-policy-link a {
-  text-decoration: none;
-  font-size: 1.6rem;
-  border-bottom: 1px solid #0D6EFD;
-}
 
 .footer-bottom {
   padding: 2rem 0;
+  font-size: 1.6rem;
+}
+
+.footer-bottom .privacy-policy-link {
+  text-align: center;
+}
+
+.footer-bottom .privacy-policy-link a {
+  display: inline-block;
+  text-decoration: none;
   font-size: 1.6rem;
 }
 
